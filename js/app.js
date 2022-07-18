@@ -37,7 +37,6 @@ function editPerson(id){
         });
         editBtn.onclick = function(){
             if(name.value != '' && value.value != ''){
-                //remove all rows from table
                 //modify person in array    
                 persons.forEach(function (element, i) {
                     if(element.id == id){
